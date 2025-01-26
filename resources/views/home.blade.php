@@ -60,6 +60,16 @@
                                         <input type="email" name="email" id="email" class="form-control">
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>Name</label>
+                                        <input type="text" name="name" id="name" class="form-control">
+                                    </div>
+                                    <div class="col-lg">
+                                        <label>Email</label>
+                                        <input type="email" name="email" id="email" class="form-control">
+                                    </div>
+                                </div>
 
                                 <div class="row">
                                     <div class="col-lg">
