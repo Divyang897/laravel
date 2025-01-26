@@ -21,9 +21,6 @@ Route::get('/', function () {
     return view('home');
 
 });
-
-
-
 Route::post('/store', [EmployeeController::class, 'store'])->name('store');
 Route::get('/getall', [EmployeeController::class, 'getall'])->name('getall');
 Route::get('/employee/{id}/edit', [EmployeeController::class, 'edit'])->name('edit');
